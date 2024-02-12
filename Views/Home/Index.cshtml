@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model WebApplication4.Models.ViewModel
+
+@if (Model.TblCtyphapList != null)
+{
+    @foreach (var item in Model.TblCtyphapList)
+    {
+        <div class="row container">
+            <p class="col">@item.SoPn</p>
+            <p class="col">@item.MaVtu</p>
+            <p class="col">@item.Slnhap</p>
+            <p class="col">@item.MaVtuNavigation.MaVtu</p>
+            <p class="col">@item.MaVtuNavigation.TenVtu</p>
+            <p class="col">@item.MaVtuNavigation.Dvtinh</p>
+            <p class="col">@item.MaVtuNavigation.Dongia</p>
+            <p class="col">@item.SoPnNavigation.SoDh</p>
+        </div>
+    }
+}
