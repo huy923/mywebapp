@@ -134,3 +134,5 @@ D:\project\WebApplication4\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runti
 D:\project\WebApplication4\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\project\WebApplication4\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\project\WebApplication4\obj\Debug\net8.0\WebApplication4.csproj.AssemblyReference.cache
+D:\project\WebApplication4\bin\Debug\net8.0\web.config
+D:\project\WebApplication4\obj\Debug\net8.0\WebApplication4.sourcelink.json
