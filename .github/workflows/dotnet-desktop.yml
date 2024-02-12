@@ -113,10 +113,10 @@ jobs:
       with:
         name: MSIX Package
         path: ${{ env.Wap_Project_Directory }}\AppPackages
-        
+
     - name: Run vstests
       uses: microsoft/vstest-action@v1.0.0
       with:
-        testAssembly: TestProject.dll
-        searchFolder: .\TestProject\bin\Debug\
+        testAssembly: WebApplication4.dll
+        searchFolder: .\WebApplication4\bin\Debug\
         runInParallel: true
